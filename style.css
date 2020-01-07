@@ -373,7 +373,7 @@ a img:hover {
     #web_boks {
         display: flex;
         flex-direction: row;
-        padding: 3.5rem;
+        padding: 3rem;
 
     }
 
@@ -426,14 +426,14 @@ a img:hover {
     #ux_boks1 {
         display: flex;
         flex-direction: row;
-        padding: 3.5rem;
+        padding: 3rem;
 
     }
 
     #ux_boks2 {
         display: flex;
         flex-direction: row;
-        padding: 3.5rem;
+        padding: 3rem;
 
     }
 
@@ -484,14 +484,14 @@ a img:hover {
     #animation_boks1 {
         display: flex;
         flex-direction: row;
-        padding: 3.5rem;
+        padding: 3rem;
 
     }
 
     #animation_boks2 {
         display: flex;
         flex-direction: row;
-        padding: 3.5rem;
+        padding: 3rem;
 
     }
 
@@ -540,14 +540,14 @@ a img:hover {
     #content_boks1 {
         display: flex;
         flex-direction: row;
-        padding: 3.5rem;
+        padding: 3rem;
 
     }
 
     #content_boks2 {
         display: flex;
         flex-direction: row;
-        padding: 3.5rem;
+        padding: 3rem;
 
     }
 
@@ -598,7 +598,7 @@ a img:hover {
     #om_boks {
         display: flex;
         flex-direction: row;
-        padding: 3.5rem;
+        padding: 3rem;
 
     }
 
