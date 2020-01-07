@@ -379,14 +379,14 @@ a img:hover {
 
 
     p {
-        font-size: 1.4rem;
+        font-size: 1rem;
         font-family: "Hoefler Text";
         color: #414141;
         line-height: 1.5;
     }
 
     h1 {
-        font-size: 4.4rem;
+        font-size: 4rem;
         font-family: "optima";
         color: #414141;
         justify-content: center;
@@ -396,7 +396,7 @@ a img:hover {
     }
 
     h2 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         font-family: "optima";
         color: #414141;
         font-weight: 600;
