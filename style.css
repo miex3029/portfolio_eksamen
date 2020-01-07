@@ -554,9 +554,15 @@ a img:hover {
     #video_interview video {
         width: 40vw;
         height: 22.5vw;
+
+    }
+
+    #video_interview {
+
         padding-left: 4rem;
         padding-top: 7rem;
     }
+
 
     #content_text1 {
         padding-right: 4rem;
