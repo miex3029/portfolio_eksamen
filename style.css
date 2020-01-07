@@ -518,12 +518,12 @@ a img:hover {
     #privatsnak img {
         width: 40vw;
         height: 22.5vw;
-        padding-right: 3rem;
+        padding-right: 2rem;
         padding-top: 8rem;
     }
 
     #animation_text2 {
-        padding-left: 2rem;
+        padding-left: 1.5rem;
     }
 
 
