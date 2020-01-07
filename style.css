@@ -1,0 +1,673 @@
+* {
+    /*    box-sizing: border-box;*/
+    margin: 0;
+}
+
+body {
+    background-color: #faf6f8;
+    margin: 0;
+}
+
+#splash img {
+    width: 100%;
+}
+
+
+
+#nav {
+    display: none;
+}
+
+#nav_mobile {
+    position: fixed;
+    width: 100%;
+    padding-top: 3rem;
+}
+
+#nav_mobile a {
+    font-size: 1rem;
+    padding-right: 2rem;
+    text-decoration: none;
+    color: #A44D9E;
+    width: 19vw;
+    height: 5vw;
+    background: linear-gradient(to top, rgba(240, 235, 240, 0.55), transparent);
+    font-family: "optima";
+    font-weight: 500;
+}
+
+#nav_mobile a:hover {
+    color: #E681D7;
+}
+
+p {
+    font-size: 1.2rem;
+    font-family: "Hoefler Text";
+    color: #414141;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: "optima";
+    color: #414141;
+    justify-content: center;
+    display: flex;
+    font-weight: 500;
+    padding-top: 7rem;
+}
+
+h2 {
+    font-size: 1.35rem;
+    font-family: "optima";
+    color: #414141;
+    font-weight: 600;
+    padding-bottom: 1.5rem;
+}
+
+#om h2 {
+    padding-top: 5rem;
+}
+
+.button {
+    width: 47vw;
+    height: 24vw;
+    padding-left: 3rem;
+}
+
+#web_boks {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 3rem;
+
+
+}
+
+
+#web_pic img {
+    width: 75vw;
+    height: 75vw;
+    padding-bottom: 3rem;
+}
+
+#web {
+    background-image: url(web_bg.svg);
+    background-size: cover;
+}
+
+#ux1 {
+    background-image: url(ux_bg1.svg);
+    background-size: cover;
+}
+
+#ux2 {
+    background-image: url(ux_bg2.svg);
+    background-size: cover;
+}
+
+#ux_boks1 {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 3.5rem;
+}
+
+#ux_pic1 img {
+    width: 65vw;
+    height: 200vw;
+    padding-left: 0.8rem;
+}
+
+#ux_pic2 img {
+    width: 65vw;
+    height: 200vw;
+    padding-left: 0.8rem;
+}
+
+
+#ux_boks2 {
+    display: flex;
+    flex-direction: column;
+    padding: 3.5rem;
+}
+
+#animation1 {
+    background-image: url(animation_bg1.svg);
+    background-size: cover;
+}
+
+#animation2 {
+    background-image: url(animation_bg2.svg);
+    background-size: cover;
+}
+
+
+#content1 {
+    background-image: url(content_bg1.svg);
+    background-size: cover;
+}
+
+#content2 {
+    background-image: url(content_bg2.svg);
+    background-size: cover;
+}
+
+#om {
+    background-image: url(om_bg.svg);
+    background-size: cover;
+}
+
+#web_splash1 {
+    display: none;
+}
+
+#mobile_splash1 {
+    width: 100%;
+    display: block;
+    position: fixed;
+
+}
+
+#web_splash2 {
+    display: none;
+}
+
+#mobile_splash2 {
+    width: 100%;
+    display: block;
+}
+
+
+#footer p {
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    color: #cec5c9;
+}
+
+#animation_boks1 {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 3.5rem;
+}
+
+#animation_boks2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#animation_text1 {
+    padding-top: 2.5rem;
+}
+
+#animation_text2 {
+    padding: 3.5rem;
+}
+
+#privatsnak img {
+    width: 77vw;
+    height: 51vw;
+    padding-top: 2.5rem;
+    padding-left: 2.75rem;
+
+}
+
+#ps img {
+    width: 17vw;
+    height: 43vw;
+    padding-left: 2.75rem;
+}
+
+
+
+a img:hover {
+    opacity: 0.6;
+}
+
+#splash a img:hover {
+    opacity: 1;
+}
+
+#content_boks1 {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 3rem;
+}
+
+#content_boks1 video {
+    width: 75vw;
+    height: 50vw;
+    padding-bottom: 2rem;
+}
+
+#content_boks2 {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+#content_boks2 video {
+    width: 75vw;
+    height: 50vw;
+}
+
+#om_boks {
+    display: flex;
+    flex-direction: column;
+    padding: 3.5rem;
+}
+
+#om_boks img {
+    width: 67vw;
+    height: 90vw;
+}
+
+#splash #burgermenu img {
+    width: 13vw;
+    height: 6vw;
+    position: relative;
+}
+
+#burgermenu {
+    position: fixed;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+    padding-top: 1.4rem;
+    padding-right: 7rem;
+    right: -23vw;
+}
+
+.hide {
+    display: none;
+    pointer-events: none;
+}
+
+.flex_end {
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+}
+
+#video_content img {
+    width: 52vw;
+    height: 52vw;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+/************** media query **********/
+@media only screen and (min-width: 600px) {
+
+    #nav {
+        display: flex;
+        flex-direction: row;
+
+
+    }
+
+    #web_nav img {
+        width: 22.16vw;
+        height: 3.87vw;
+
+    }
+
+    #web_nav img:hover {
+        opacity: 0.6;
+    }
+
+    #ux_nav img {
+        width: 15.4vw;
+        height: 3.87vw;
+
+    }
+
+    #ux_nav img:hover {
+        opacity: 0.6;
+    }
+
+    #animation_nav img {
+        width: 25.23vw;
+        height: 3.87vw;
+
+    }
+
+    #animation_nav img:hover {
+        opacity: 0.6;
+    }
+
+    #content_nav img {
+        width: 21.33vw;
+        height: 3.87vw;
+
+    }
+
+    #content_nav img:hover {
+        opacity: 0.6;
+    }
+
+    #om_nav img {
+        width: 15.76vw;
+        height: 3.87vw;
+
+    }
+
+    #om_nav img:hover {
+        opacity: 0.6;
+    }
+
+    #forside img {
+        width: 100%
+    }
+
+
+    #web {
+        background-image: url(web_bg.svg);
+        background-size: cover;
+    }
+
+
+
+    #web_boks {
+        display: flex;
+        flex-direction: row;
+        padding: 3.5rem;
+
+    }
+
+
+    p {
+        font-size: 1.4rem;
+        font-family: "Hoefler Text";
+        color: #414141;
+        line-height: 1.5;
+    }
+
+    h1 {
+        font-size: 4.4rem;
+        font-family: "optima";
+        color: #414141;
+        justify-content: center;
+        display: flex;
+        font-weight: 500;
+        padding: 3rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+        font-family: "optima";
+        color: #414141;
+        font-weight: 600;
+    }
+
+
+    #web_pic img {
+        width: 27vw;
+        height: 27vw;
+        padding-left: 4rem;
+        padding-top: 5.5rem;
+    }
+
+    #web_text {
+        padding-right: 4rem;
+    }
+
+    .button {
+        width: 17vw;
+        height: 5.01vw;
+        padding-left: 0rem;
+        padding-top: 1.3rem;
+    }
+
+
+
+    #ux_boks1 {
+        display: flex;
+        flex-direction: row;
+        padding: 3.5rem;
+
+    }
+
+    #ux_boks2 {
+        display: flex;
+        flex-direction: row;
+        padding: 3.5rem;
+
+    }
+
+    #ux1 {
+        background-image: url(ux_bg1.svg);
+        background-size: cover;
+    }
+
+    #ux2 {
+        background-image: url(ux_bg2.svg);
+        background-size: cover;
+    }
+
+    #ux_pic1 img {
+        width: 30vw;
+        height: 70vw;
+        padding-left: 4rem;
+        padding-top: 3rem;
+    }
+
+    #ux_text1 {
+        padding-right: 4rem;
+    }
+
+    #ux_pic2 img {
+        width: 27vw;
+        height: 62vw;
+        padding-right: 4rem;
+        padding-top: 3rem;
+    }
+
+    #ux_text2 {
+        padding-left: 4rem;
+    }
+
+
+
+    #animation1 {
+        background-image: url(animation_bg1.svg);
+        background-size: cover;
+    }
+
+    #animation2 {
+        background-image: url(animation_bg2.svg);
+        background-size: cover;
+    }
+
+    #animation_boks1 {
+        display: flex;
+        flex-direction: row;
+        padding: 3.5rem;
+
+    }
+
+    #animation_boks2 {
+        display: flex;
+        flex-direction: row;
+        padding: 3.5rem;
+
+    }
+
+
+    #spilstart img {
+        width: 40vw;
+        height: 22.5vw;
+        padding-left: 4rem;
+        padding-top: 7rem;
+        padding-bottom: 0rem;
+    }
+
+    #spilslut img {
+        width: 40vw;
+        height: 22.5vw;
+        padding-left: 4rem;
+        padding-top: 1rem;
+    }
+
+    #animation_text1 {
+        padding-right: 4rem;
+    }
+
+    #privatsnak img {
+        width: 40vw;
+        height: 22.5vw;
+        padding-right: 4rem;
+        padding-top: 8rem;
+    }
+
+    #animation_text2 {
+        padding-left: 4rem;
+    }
+
+
+    #content1 {
+        background-image: url(content_bg1.svg);
+        background-size: cover;
+    }
+
+    #content2 {
+        background-image: url(content_bg2.svg);
+        background-size: cover;
+    }
+
+    #content_boks1 {
+        display: flex;
+        flex-direction: row;
+        padding: 3.5rem;
+
+    }
+
+    #content_boks2 {
+        display: flex;
+        flex-direction: row;
+        padding: 3.5rem;
+
+    }
+
+    #video_interview video {
+        width: 40vw;
+        height: 22.5vw;
+        padding-left: 4rem;
+        padding-top: 7rem;
+    }
+
+    #content_text1 {
+        padding-right: 4rem;
+    }
+
+    #video_content video {
+        width: 40vw;
+        height: 22.5vw;
+        padding-right: 4rem;
+        padding-top: 5rem;
+    }
+
+    #content_text2 {
+        padding-left: 4rem;
+    }
+
+    #buttons {
+        padding-left: 6.2rem;
+    }
+
+    #buttons2 {
+        padding-left: 2.5rem;
+    }
+
+
+    #om {
+        background-image: url(om_bg.svg);
+        background-size: cover;
+    }
+
+
+
+    #om_boks {
+        display: flex;
+        flex-direction: row;
+        padding: 3.5rem;
+
+    }
+
+    #om_pic img {
+        width: 30vw;
+        height: 40.16vw;
+        padding-left: 4rem;
+        padding-top: 5rem;
+    }
+
+    #om_text {
+        padding-right: 4rem;
+    }
+
+    #ani_h1 h1 {
+        margin-top: 0rem;
+    }
+
+
+    #footer p {
+        display: flex;
+        justify-content: center;
+        font-size: 0.9rem;
+        color: #cec5c9;
+    }
+
+    a img:hover {
+        opacity: 0.6;
+    }
+
+    #splash a img:hover {
+        opacity: 1;
+    }
+
+    #ps img {
+        width: 9vw;
+        height: 17.4vw;
+        padding-left: 4.3rem;
+        padding-top: 1rem;
+
+    }
+
+    #mobile_splash1 {
+        display: none;
+    }
+
+    #web_splash1 {
+        display: block;
+    }
+
+    #mobile_splash2 {
+        display: none;
+    }
+
+    #web_splash2 {
+        display: block;
+    }
+
+    #burgermenu {
+
+        display: none;
+        pointer-events: none;
+    }
+
+    #nav_mobile {
+
+        display: none;
+        pointer-events: none;
+    }
+
+    #video_content img {
+        width: 27vw;
+        height: 27vw;
+        padding-top: 1rem;
+        padding-left: 5.5rem;
+    }
+
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="373" height="110" viewBox="0 0 373 110">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff0f0"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_520" data-name="Group 520" transform="translate(-1082 -2902)">
+    <g id="Rectangle_1752" data-name="Rectangle 1752" transform="translate(1082 2902)" stroke="#e7e3e7" stroke-width="1" fill="url(#linear-gradient)">
+      <rect width="373" height="110" rx="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="372" height="109" rx="31.5" fill="none"/>
+    </g>
+    <text id="Se_redesign" data-name="Se redesign" transform="translate(1178 2971)" fill="#414141" font-size="37" font-family="Optima-Regular, Optima"><tspan x="0" y="0">Se redesign</tspan></text>
+  </g>
+</svg>
